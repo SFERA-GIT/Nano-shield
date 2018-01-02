@@ -23,19 +23,19 @@
 void setup() 
 //Тело функции setup
 {
-  pinMode(white, OUTPUT); //настройка ножки white(5) на выход
-  pinMode(blue, OUTPUT);  //настройка ножки blue(6) на выход
-  pinMode(red, OUTPUT);   //настройка ножки red(7) на выход
-  pinMode(green, OUTPUT); //настройка ножки green(8) на выход
+  pinMode(white, OUTPUT); //настройка контакта white(5) на выход
+  pinMode(blue, OUTPUT);  //настройка контакта blue(6) на выход
+  pinMode(red, OUTPUT);   //настройка контакта red(7) на выход
+  pinMode(green, OUTPUT); //настройка контакта green(8) на выход
 }
 
 //Обязательная функция loop (бесконечно повторяющаяся функция)
 void loop() 
 //Тело функции loop
 {
- digitalWrite(white,0);  //включение ножки white(5)
- digitalWrite(blue,0);   //включение ножки blue(6)
- digitalWrite(red,0);    //включение ножки red(7)
- digitalWrite(green,0);  //включение ножки green(8)
+ digitalWrite(white,0);  //включение контакта white(5)
+ digitalWrite(blue,0);   //включение контакта blue(6)
+ digitalWrite(red,0);    //включение контакта red(7)
+ digitalWrite(green,0);  //включение контакта green(8)
 
 }
